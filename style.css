@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+.wrapper {
+    background: linear-gradient(to right,  rgb(218, 131, 199),rgb(63, 206, 199));
+    width: 100vw;
+    min-height: 100vh;
+    min-width: 100vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.container {
+    /* background: transparent; */
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    box-shadow: 4px 4px 4px red;
+}
+.wrapper h2{
+    color: rgb(74, 0, 247);
+    font-size: 2rem;
+    margin: 10px;
+    border-bottom: 5px solid rgb(74, 0, 247);
+    text-shadow: 2px 2px 3px blue;
+    padding:5px;
+}
+#passBox {
+    background: white;
+    color: black;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-block:8px;
+    /* width: 350px; */
+    font-size:20px;
+    height:40px;
+    flex-basis: 100%;
+}
+#passBox::selection{
+    background: black;
+    color:yellowgreen;
+}
+img{
+    width: 40px;
+    height:40px;
+    position:relative;
+    top:8px;
+    cursor:pointer;
+}
+#slider{
+    accent-color: blue;
+}
+.row{
+    display: flex;
+    margin-block: 8px;
+}
+.row p{
+    flex-basis: 100%;
+}
+.row p,.checkboxes label{
+    font-size: 18px;
+}
+.checkboxes{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+.checkboxes input[type="checkbox"] {
+    accent-color:blue;
+    margin-block:8px;
+    width: 18px;
+    height: 18px;
+    cursor:pointer;
+}
+#button{
+    border:none;
+    outline:none;
+    color:aliceblue;
+    font-size: 18px;
+    background: rgb(2, 209, 236);
+    cursor:pointer;
+    width: 300px;
+    height:40px;
+    padding:10px;
+    margin: 10px;
+}
+#button:hover{
+    background: rgb(67, 241, 241);
+}
+.strength{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+.items{
+    /* align-self:center; */
+    font-size:1px;
+    background:white;
+    width: 30px;
+    height:10px;
+    /* padding:30px; */
+    /* border-radius: 4px; */
+    margin:0px;
+}
