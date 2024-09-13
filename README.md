@@ -1,8 +1,7 @@
 # Password Generator
-<h3>Description</h3>
+<h3>About</h3>
 <p>
-  A simple and customizable password generator built with html, css and javascript. This tool generates strong, secure passwords based on
-  user-defined criteria, such as length and character types (uppercase, lowercase, digits, symbols).
+  A simple and customizable password generator tool that not only generates strong, secure passwords based on user-defined length and character types (uppercase, lowercase, digits, symbols) but also rates their strength based on various criteria.
 </p>
 <h3>Features</h3>
 <ul>
@@ -10,12 +9,24 @@
     Generate random passwords of a specified length.
   </li>
   <li>
-    Option to include or exclude uppercase letters, lowercase letters, numbers, and special characters.
+    Option to include or exclude uppercase letters, lowercase letters, numbers and special characters.
   </li>
   <li>
-    Copy generated password to clipboard with a single click (if applicable).
+    Copy generated password to clipboard.
   </li>
   <li>
-    Generate password strength.
+    Password strength rating based on length, character diversity.
+  </li>
+</ul>
+<h3>Tech</h3>
+<ul>
+  <li>
+    HTML
+  </li>
+  <li>
+    CSS
+  </li>
+  <li>
+    JS
   </li>
 </ul>
