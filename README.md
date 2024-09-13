@@ -1,4 +1,4 @@
-# password-generator
+# Password Generator
 <h3>Description</h3>
 <p>
   A simple and customizable password generator built with html, css and javascript. This tool generates strong, secure passwords based on
